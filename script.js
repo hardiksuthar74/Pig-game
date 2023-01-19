@@ -72,7 +72,7 @@ btnHold.addEventListener('click', function(){
             switchPlayer();
         }
     }  
-})
+});
 
 
 
