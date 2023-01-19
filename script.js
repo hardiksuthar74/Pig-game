@@ -29,7 +29,7 @@ const init = function(){
     player0El.classList.add('player--active');
     player1El.classList.remove('player--active');
 
-}
+};
 
 
 
@@ -41,7 +41,7 @@ const switchPlayer = function(){
     activePlayer = activePlayer === 0 ? 1 : 0;
     player0El.classList.toggle('player--active');
     player1El.classList.toggle('player--active');
-}
+};
 
 btnRoll.addEventListener('click', function(){
     if (playing){
